@@ -14,3 +14,6 @@ NODE_OPTIONS=--max-old-space-size=4096 npm run build
 ```sh
 npm run preview
 ```
+
+## Reference
+ - [ViteJS](https://vitejs.dev/)
