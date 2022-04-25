@@ -11,6 +11,6 @@
     "vite": "^2.9.5"
   },
   "dependencies": {
-    "@hophiphip/opencv-js": "^0.0.2"
+    "@hophiphip/opencv-js": "^0.0.3"
   }
 }
