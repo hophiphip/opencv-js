@@ -1,14 +1,21 @@
 {
   "name": "@hophiphip/opencv-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "opencv.js",
   "description": "OpenCV for JavaScript compiled with Emscripten",
   "bundledDependencies": false,
-  "deprecated": false,
   "scripts": {},
   "keywords": [
     "OpenCV"
   ],
   "author": "hophiphip",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hophiphip/opencv-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hophiphip/opencv-js/issues"
+  },
+  "homepage": "https://github.com/hophiphip/opencv-js#readme"
 }
