@@ -1,1 +1,2 @@
-opencv.js linguist-language=JavaScript
+# Excluded from stats, not hidden in diffs
+opencv.js linguist-vendored
