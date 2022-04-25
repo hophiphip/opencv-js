@@ -1,0 +1,14 @@
+{
+  "name": "opencv-js",
+  "version": "0.0.1",
+  "main": "opencv.js",
+  "description": "OpenCV for JavaScript compiled with Emscripten",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "scripts": {},
+  "keywords": [
+    "OpenCV"
+  ],
+  "author": "hophiphip",
+  "license": "ISC"
+}
