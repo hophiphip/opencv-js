@@ -1,2 +1,2 @@
-# Excluded from stats, not hidden in diffs
-opencv.js linguist-vendored
+# Excluded from stats, hidden in diffs
+opencv.js linguist-generated
