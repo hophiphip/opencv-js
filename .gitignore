@@ -18,6 +18,7 @@ docker/*
 # Except these
 !docker/Dockerfile
 !docker/build.sh
+!docker/README.md
 
-# Build
+# Ignore build directory
 build
