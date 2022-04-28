@@ -20,5 +20,8 @@ docker/*
 !docker/build.sh
 !docker/README.md
 
-# Ignore build directory
+# Ignore build directory and other build artifacts
+bin
 build
+opencv
+opencv_build
