@@ -7,7 +7,7 @@ ENV OPENCV_VERSION=4.3.0
 
 ENV EMSCRIPTEN_BUILD_FOLDER=opencv_build
 
-COPY build.sh /code/build.sh
-RUN chmod +x /code/build.sh
+COPY build.sh /build.sh
+RUN chmod +x /build.sh
 
-ENTRYPOINT ["sh", "-c", "/emsdk_portable/entrypoint && ls && ./build.sh"]
+ENTRYPOINT ["sh", "-c", "/emsdk_portable/entrypoint && cp /build.sh . && ./build.sh"]

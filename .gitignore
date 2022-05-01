@@ -19,6 +19,7 @@ docker/*
 !docker/Dockerfile
 !docker/build.sh
 !docker/README.md
+!docker/cmake-configs
 
 # Ignore build directory and other build artifacts
 bin

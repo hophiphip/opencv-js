@@ -6,7 +6,7 @@
   "bundledDependencies": false,
   "scripts": {
     "build": "mkdir -p build && docker build -t emsdk-for-opencv ./docker/",
-    "compile": "docker run --rm --workdir /code -v \"$PWD\":/build --user $(id -u):$(id -g) emsdk-for-opencv:latest"
+    "compile": "docker run --rm --workdir /code -v \"$PWD/build\":/code --user $(id -u):$(id -g) emsdk-for-opencv:latest"
   },
   "keywords": [
     "OpenCV"
