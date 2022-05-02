@@ -32,10 +32,10 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
-"@hophiphip/opencv-js@^0.0.3":
-  "integrity" "sha512-LU0MYl1OmwRxPYtIzhrLHu7AoWpvFKO2Rt41KFzphjPZjqwU4HM17F0ZC1VxI3Ur89AoAgqw1chQmwVMW89Ksg=="
-  "resolved" "https://registry.npmjs.org/@hophiphip/opencv-js/-/opencv-js-0.0.3.tgz"
-  "version" "0.0.3"
+"@hophiphip/opencv-js@^0.0.6":
+  "integrity" "sha512-QH2WnltKc3dlJfS5PW2Q5xF1dbOVeVERRKljTSqt4nV7VHLOZ9aIbKfsowiIisrxpad6s5B4D1RuXd/dWreiQA=="
+  "resolved" "https://registry.npmjs.org/@hophiphip/opencv-js/-/opencv-js-0.0.6.tgz"
+  "version" "0.0.6"
 
 "@humanwhocodes/config-array@^0.9.2":
   "integrity" "sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw=="

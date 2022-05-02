@@ -20,6 +20,6 @@
     "stream-browserify": "^3.0.0"
   },
   "dependencies": {
-    "@hophiphip/opencv-js": "^0.0.3"
+    "@hophiphip/opencv-js": "^0.0.6"
   }
 }
