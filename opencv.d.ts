@@ -1263,7 +1263,16 @@ export var fillPoly: any;
 /** function */
 export var filter2D: any;
 
-/** function */
+/**
+ * Finds contours in a binary image.
+ * 
+ * @param {Mat} image - Source, an 8-bit single-channel image.
+ * @param {MatVector} contours - Detected contours.
+ * @param {Mat?} hierarchy - Optional output vector, containing information about the image topology.
+ * @param {number} mode - Contour retrieval mode.
+ * @param {number} method - Contour approximation method.
+ * @param {Point=} offset - Optional offset by which every contour point is shifted. This is useful if the contours are extracted from the image ROI and then they should be analyzed in the whole image context.
+ */
 export var findContours: any;
 
 /** function */
@@ -2389,10 +2398,19 @@ export var CALIB_RECOMPUTE_EXTRINSIC: number;
 /** object */
 export var FS: any;
 
-/** function */
+/**
+ * Read an image from the specified window (canvas).
+ * 
+ * @param {String} canvasSource - Canvas element id.
+ */
 export var imread: any;
 
-/** function */
+/**
+ * Displays an image in the specified window (canvas). 
+ * 
+ * @param {String} canvasSource - Canvas element id.
+ * @param {Mat} mat - Image to be shown. 
+ */
 export var imshow: any;
 
 /** function */
@@ -2401,10 +2419,20 @@ export var VideoCapture: any;
 /** function */
 export var Range: any;
 
-/** function */
+/**
+ * Template class for 2D points specified by its coordinates x and y.
+ * 
+ * @param {number} x
+ * @param {number} y
+ */
 export var Point: any;
 
-/** function */
+/**
+ * Template class for specifying the size of an image or rectangle.
+ * 
+ * @param {number} width
+ * @param {number} height
+ */
 export var Size: any;
 
 /** function */
