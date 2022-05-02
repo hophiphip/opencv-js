@@ -1,2 +1,5 @@
 # Excluded from stats, hidden in diffs
 opencv.js linguist-generated
+# Excluded from stats
+docker/cmake-lists/default/CMakeLists.txt linguist-vendored
+docker/cmake-lists/separate/CMakeLists.txt linguist-vendored
