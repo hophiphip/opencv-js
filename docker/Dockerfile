@@ -6,6 +6,9 @@ ENV OPENCV_REPO=https://github.com/opencv/opencv.git
 ENV OPENCV_VERSION=4.3.0
 
 ENV EMSCRIPTEN_BUILD_FOLDER=opencv_build
+ENV CMAKE_OVERWRITE_FILE=
+
+RUN mkdir /cmake-lists
 
 COPY build.sh /build.sh
 RUN chmod +x /build.sh

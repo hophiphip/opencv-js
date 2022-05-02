@@ -6,7 +6,10 @@
   "bundledDependencies": false,
   "scripts": {
     "build": "mkdir -p build && docker build -t emsdk-for-opencv ./docker/",
-    "compile": "docker run --rm --workdir /code -v \"$PWD/build\":/code --user $(id -u):$(id -g) emsdk-for-opencv:latest"
+    "build:clean": "docker image rm emsdk-for-opencv",
+    "clean": "rm -rf build/* && rm -f build/.eslintrc.json",
+    "compile": "npm run clean && docker run --rm --workdir /code -v \"$PWD/build\":/code --user $(id -u):$(id -g) emsdk-for-opencv:latest",
+    "compile:separate": "npm run clean && docker run --rm --workdir /code -v \"$PWD/build\":/code -v \"$PWD/docker/cmake-lists\":/cmake-lists:ro --user $(id -u):$(id -g) --env CMAKE_OVERWRITE_FILE=/cmake-lists/separate/CMakeLists.txt emsdk-for-opencv:latest"
   },
   "keywords": [
     "OpenCV"
