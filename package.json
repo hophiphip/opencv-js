@@ -1,6 +1,6 @@
 {
   "name": "@hophiphip/opencv-js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "opencv.js",
   "description": "OpenCV for JavaScript compiled with Emscripten",
   "bundledDependencies": false,
