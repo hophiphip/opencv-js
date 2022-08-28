@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "@hophiphip/opencv-js": "^0.0.6",
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5"
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
   }
 }
